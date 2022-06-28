@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    width: 100%;
+    height: 100%;
+  }
+.nav{
+  width: 40vmin;
+  height: 100vh;
+  background-color: #293129d3;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 10px;
+}
+.rows{
+  width: 100%;
+  height: 10%;
+  margin-bottom:20px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  width: 60%;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
